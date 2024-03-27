@@ -1,0 +1,35 @@
+<div class="p-3">
+    <div class="card">
+        <div class="card-body" *ngIf="panie">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Nom</th>
+                        <th>Type</th>
+                        <th>Prix</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let p of panie.produits">
+                        <td>{{p.nom}}</td>
+                        <td>{{p.categorie}}</td>
+                        <td>{{p.prix}}</td>
+                        <td>
+                            
+                            <button (click)="Delete(p)" class="btn btn-danger ms-2">
+                                <i class="bi bi-trash"></i>
+                            </button>
+                            
+                        </td>
+                    </tr>
+                </tbody>
+           </table>
+           <div class="d-flex flex-row-reverse">Totale : {{panie.total}} $</div>
+           <div class="d-flex justify-content-center">
+            <button (click)="acheter()" class=" btn btn-outline-success">Save</button>
+           </div>
+            
+        </div>
+    </div>
+</div>

@@ -1,0 +1,41 @@
+<div class="p-3">
+    <div class="card">
+        <div class="card-header">
+            <div class="d-flex justify-content-center p-3">ProduitID = {{productId}}</div>
+        </div>
+        <div class="card-body" *ngIf="produitForm" >
+              <form [formGroup]="produitForm" (ngSubmit)="Acheter()" class="d-flex justify-content-center">
+                <div class="p-5">
+                    <button style="border: none; background: none; padding: 0; margin: 0;" (click)="Acheter()">
+                        <img src="{{ImageProduit}}" alt="Image" width="150" height="200">
+                </button>
+                </div>
+                <div class="p-20 col-5">
+                    <div class="mb-3">
+                        <label class="form-label">Nom</label>
+                        <input class="form-control disabled" formControlName="nom"  style="border: none;"/>
+                    </div>
+                    <div class="mn-3">
+                        <label class="form-label">Prix</label>
+                        <input class="form-control" formControlName="prix"/>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Quantité</label>
+                        <input class="form-control" formControlName="quantite"/>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="exampleFormControlTextarea1">Description</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" formControlName="Description"></textarea>
+                      </div>
+                    <div class="mb-3">
+                        <label class="form-label">Checked</label>
+                        <input type="checkbox" formControlName="checked"/>
+                    </div>
+                    <button [disabled]="produitForm.invalid" class="btn btn-outline-success">Commander</button>
+                </div>
+               
+            </form>
+            
+        </div>
+    </div>
+</div>

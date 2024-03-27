@@ -1,0 +1,57 @@
+<div class="p-3">
+    <div class="card">
+        <div class="card-body">
+            <div class="d-flex justify-content-center p-3">
+                <input type="text" [(ngModel)]="recherche"/>
+                <button 
+                (click)="Search()"
+                class="btn btn-outline-success">
+                    <i class="bi bi-search"></i>
+                </button>
+            </div>
+           <table class="table">
+                <thead>
+                    <tr>
+                        <th>Nom</th>
+                        <th>Type</th>
+                        <th>Prix</th>
+                        <th>Quantité</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let produit of produitsPage">
+                        <td>{{produit.nom}}</td>
+                        <td>{{produit.categorie}}</td>
+                        <td>{{produit.prix}}</td>
+                        <td>{{produit.quantite}}</td>
+                        <td>
+                            <button (click)="cocher(produit,page)" class="btn btn-outline-success">
+                                <i [class]="produit.checked?'bi bi-check':'bi bi-circle'"></i>
+                            </button>
+                            <button (click)="Delete(produit)" class="btn btn-danger ms-2">
+                                <i class="bi bi-trash"></i>
+                            </button>
+                            <button (click)="Edite(produit)" class="btn btn-danger ms-2">
+                                <i class="bi bi-pencil"></i>
+                            </button>
+                        </td>
+                    </tr>
+                </tbody>
+           </table>
+           <div>
+            <nav class="p-3">
+                <ul class="nav nav-pills">
+                    <li *ngFor="let p of [].constructor(numePage);let i=index">
+                        <button  
+                        [class]="i==page?'btn btn-success ms-3':'btn btn-outline-success ms-3'"
+                        (click)="pagess(i)">{{i}}</button>
+                    </li>
+                       
+                </ul>     
+          </nav>
+           </div>
+           
+        </div>
+    </div>
+</div>

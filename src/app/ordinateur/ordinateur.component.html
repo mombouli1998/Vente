@@ -1,0 +1,27 @@
+<div class="p-3">
+    <div class="card">
+        <div class="card-header"> 
+            <div class="d-flex justify-content-center p-3">
+                <span class="p-1">Recherche</span>
+                <input type="text" [(ngModel)]="recherche"/>
+                <button 
+                (click)="Search()"
+                class="btn btn-outline-success">
+                    <i class="bi bi-search"></i>
+                </button>
+            </div> </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <ul class="list-inline" style="display: flex; flex-wrap: wrap;">
+                            <li *ngFor="let produit of ListeProduit" class="p-2">
+                                <button *ngIf="produit.quantite!==0" style="border: none; background: none; padding: 0; margin: 0;" (click)="acheter(produit)">
+                                    <img src="{{produit.image}}" alt="Image" width="100" height="100"><br>
+                                    <span>{{produit.nom}}</span>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+    </div>
+</div>

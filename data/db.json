@@ -1,0 +1,183 @@
+{
+  "produits": [
+    {
+      "id": "1",
+      "nom": "motorola",
+      "prix": 1,
+      "checked": false,
+      "image": "https://i.goopics.net/i4pskw.jpg",
+      "quantite": "15",
+      "categorie": "telephone",
+      "Description": "Motorola fabrique une gamme variée de téléphones portables. Parmi les modèles populaires figurent la série Moto G, connue pour offrir un bon rapport qualité-prix avec des fonctionnalités solides, la série Moto E, qui cible les utilisateurs recherchant des téléphones plus abordables, et la série Moto Edge, offrant des fonctionnalités haut de gamme et des designs élégants. Motorola est également connu pour ses téléphones pliables comme le Motorola Razr. Chaque modèle propose différentes spécifications et fonctionnalités pour répondre aux besoins des utilisateurs."
+    },
+    {
+      "id": "2",
+      "nom": "iphone4",
+      "prix": 700,
+      "checked": false,
+      "image": "https://i.goopics.net/lhajeq.jpg",
+      "quantite": 4,
+      "categorie": "telephone",
+      "Description": null
+    },
+    {
+      "id": "3",
+      "nom": "souris",
+      "prix": 50,
+      "checked": true,
+      "image": "https://i.goopics.net/arj3su.jpg",
+      "quantite": 3,
+      "categorie": "bureautique",
+      "Description": "Une souris d'ordinateur est un périphérique d'entrée utilisé pour contrôler le curseur sur un écran d'ordinateur. Elle se compose généralement d'un boîtier ergonomique contenant des boutons et un capteur optique ou laser pour détecter les mouvements."
+    },
+    {
+      "id": "4",
+      "nom": "Lenovo",
+      "prix": "500",
+      "checked": true,
+      "image": "https://i.goopics.net/77xyyz.jpg",
+      "quantite": 5,
+      "categorie": "bureautique",
+      "Description": "\nLes ordinateurs Lenovo offrent des performances fiables et une conception élégante pour répondre aux besoins des utilisateurs modernes."
+    },
+    {
+      "id": "5",
+      "nom": "hp envy 6020",
+      "prix": "500",
+      "checked": false,
+      "image": "https://i.goopics.net/ivfnj1.jpg",
+      "quantite": "50",
+      "categorie": "bureautique",
+      "Description": ""
+    },
+    {
+      "id": "6",
+      "nom": "mac",
+      "prix": "1000",
+      "checked": true,
+      "image": "https://i.goopics.net/ftl868.jpg",
+      "quantite": 9,
+      "categorie": "ordinateur",
+      "Description": "\nLes ordinateurs Mac, créés par Apple, sont réputés pour leur design élégant, leur convivialité et leur intégration harmonieuse entre le matériel et le logiciel."
+    },
+    {
+      "id": "7",
+      "nom": "clavier azery",
+      "prix": "500",
+      "checked": false,
+      "image": "https://i.goopics.net/55ln9h.jpg",
+      "quantite": 4,
+      "categorie": "bureautique",
+      "Description": ""
+    },
+    {
+      "id": "9",
+      "nom": "galaxie A13",
+      "prix": "100",
+      "checked": false,
+      "image": "https://i.goopics.net/pvclxy.jpg",
+      "quantite": 6,
+      "categorie": "telephone",
+      "Description": "La Galaxy A13 est un smartphone de milieu de gamme de Samsung, offrant un écran AMOLED généreux, une caméra polyvalente et une autonomie de batterie fiable à un prix abordable. C'est un choix populaire pour ceux qui recherchent des fonctionnalités solides sans dépenser une fortune."
+    },
+    {
+      "id": "10",
+      "nom": "huawei p60",
+      "prix": "100",
+      "checked": false,
+      "image": "https://i.goopics.net/i59ivh.jpg",
+      "quantite": 4,
+      "categorie": "telephone",
+      "Description": ""
+    },
+    {
+      "id": "11",
+      "nom": "ps3",
+      "prix": "200",
+      "checked": true,
+      "image": "https://i.goopics.net/j2fdmf.jpg",
+      "quantite": "10",
+      "categorie": "console",
+      "Description": ""
+    },
+    {
+      "id": "12",
+      "nom": "ps4",
+      "prix": "500",
+      "checked": true,
+      "image": "https://i.goopics.net/jvcszj.jpg",
+      "quantite": 7,
+      "categorie": "console",
+      "Description": ""
+    },
+    {
+      "id": "13",
+      "nom": "mortal kombat x",
+      "prix": "500",
+      "checked": true,
+      "image": "https://i.goopics.net/sl5k54.jpg",
+      "quantite": 10,
+      "categorie": "jeux-video",
+      "Description": ""
+    },
+    {
+      "id": "9a96",
+      "nom": "xbox 360",
+      "prix": "150",
+      "checked": false,
+      "image": "https://i.goopics.net/g1re35.jpg",
+      "quantite": 5,
+      "categorie": "console",
+      "Description": "La Xbox 360 est une console de jeu vidéo développée par Microsoft, offrant une large gamme de jeux et de fonctionnalités multimédias."
+    },
+    {
+      "id": "a89b",
+      "nom": "sega drive mini",
+      "prix": "300",
+      "checked": false,
+      "image": "https://i.goopics.net/dtadpp.jpg",
+      "quantite": "20",
+      "categorie": "console",
+      "Description": "La Sega Drive Mini est une réplique miniature de la célèbre console de jeux vidéo Sega Genesis, offrant une collection de jeux rétro classiques préinstallés, avec des fonctionnalités modernes telles que la sauvegarde instantanée et la connectivité HDMI pour une expérience de jeu nostalgique."
+    },
+    {
+      "id": "4213",
+      "nom": "nintendo switch",
+      "prix": "15",
+      "checked": false,
+      "image": "https://i.goopics.net/6jg8fb.jpg",
+      "quantite": "10",
+      "categorie": "console",
+      "Description": "\nLa Nintendo Switch est une console de jeux vidéo hybride, à la fois portable et de salon, offrant une large gamme de jeux exclusifs et tiers. Son concept innovant permet de jouer à des jeux en mode portable, sur une télévision ou en mode table avec ses joy-cons détachables, offrant ainsi une expérience de jeu polyvalente et immersive."
+    },
+    {
+      "id": "8920",
+      "nom": "ps5",
+      "prix": "300",
+      "checked": false,
+      "image": "https://i.goopics.net/mw5qt5.jpg",
+      "quantite": "15",
+      "categorie": "console",
+      "Description": "La PS5, ou PlayStation 5, est la dernière console de jeux vidéo de Sony, offrant des graphismes de pointe, une expérience de jeu immersive en 4K, un temps de chargement réduit grâce à son SSD ultra-rapide, ainsi qu'une bibliothèque de jeux variée comprenant des titres exclusifs et des jeux tiers."
+    }
+  ],
+  "panier": [],
+  "categorie": [
+    {
+      "id": "1",
+      "categorie": "bureautique"
+    },
+    {
+      "id": "2",
+      "categorie": "telephone"
+    },
+    {
+      "id": "3",
+      "categorie": "console"
+    },
+    {
+      "id": "4",
+      "categorie": "jeux-video"
+    }
+  ]
+}
